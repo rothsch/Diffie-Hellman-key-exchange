@@ -6,7 +6,7 @@
 //
 
 #include "rc4.h"
-
+#include<cstring>
 void RC4::ksa(std::string key, int keylength)
 {
 	for (int i = 0; i < 256; i++)
